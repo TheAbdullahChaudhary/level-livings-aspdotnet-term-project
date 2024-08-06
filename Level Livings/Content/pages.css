@@ -1,0 +1,51 @@
+﻿/* page.css */
+
+.index-background-container {
+    background-color: #eee;
+
+}
+
+.index-row {
+    display: flex;
+}
+
+.index-col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.index-jumbotron {
+    height: 100%;
+    padding: 110px;
+}
+
+    .index-jumbotron h2 {
+        margin-bottom: 20px;
+        font-family: 'Poppins', sans-serif; /* Change 'Poppins' to your desired font */
+        font-weight: 700; /* Bold */
+    }
+
+.index-lead {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.index-btn-primary {
+    font-size: 18px;
+}
+
+.index-img-responsive {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    margin-top: 70px;
+}
+
+.index-align-items-center {
+    align-items: center;
+}
+
+.index-justify-content-center {
+    justify-content: center;
+}

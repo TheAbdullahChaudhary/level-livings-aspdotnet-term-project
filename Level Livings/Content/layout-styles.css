@@ -1,0 +1,107 @@
+﻿/* CSS of layout*/
+
+/* navbar.css */
+
+.navbar {
+    background-color: #fff;
+    border-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+
+  .navbar-nav {
+    float: right;
+    }
+
+    .navbar-brand img {
+        height: 60px;
+        width: auto;
+    }
+
+.navbar-inverse .navbar-nav > li > a {
+    font-size: 18px;
+}
+    .navbar-nav > li > a:hover {
+    color: #082D53 !important;
+    text-decoration: underline !important;
+}
+/* icons.css */
+
+.email-icon {
+    height: 30px;
+    width: auto;
+    margin-bottom: -24px;
+    margin-left: 420px;
+}
+
+.call-icon {
+    height: 30px;
+    width: auto;
+    margin-bottom: -24px;
+    margin-left: 15px;
+}
+
+
+/* footer.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Set the minimum height of the body to the viewport height */
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-column {
+    width: 33.33%;
+    padding: 0 10px;
+}
+
+.footer-column h2 {
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links span {
+    width: 1px;
+    height: 12px;
+    background-color: white;
+    margin: 0 5px;
+}
